@@ -1,0 +1,5 @@
+1) recap progress since last meeting
+2) go over next steps
+3) ask for advice on Passport implementation and CSRF protection (how necessary is this for the demo)
+4) ask Phil's question about Mongoose
+5) ask about deployment for the demo

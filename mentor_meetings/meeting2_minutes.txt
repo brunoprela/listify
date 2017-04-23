@@ -1,0 +1,32 @@
+November 28, 2016, Team Phil, Meeting 2 with Harihar
+
+Notes:
+
+    - Talked about design doc feedback and some concerns we had about some of the points in it.
+    - Talked about scheduling an office hours for tomorrow so that we can go over a problem that we are
+        persistently having.
+
+    - Redesigning Models:
+        - Split model into Lists (which contain the info about the items in a ranking) and Rankings which
+            are the actual ordered items representing someone's opinion
+        - Don't create a separate Consensus model. Simply compute it on page load.
+
+    - Data Model:
+        - Don't use present tense verbs! (instead of 'posts', use 'posted')
+
+    - Advice
+        - Don't store anything in the file system.
+        - Leave at least a day for deployment.
+        - Spend a lot of time on the data model.
+        - Security:
+            - CSRF - React package called SeaSurf
+            - XSS - Should do this.
+            - Threat Model:
+                - Say the capabilities that the attacker has (usually just whatever a user can do).
+                - Sniff network packets (use HTTPS).
+                - What happens if the attacker has a huge botnet (can't really protect against that).
+        - Go through demo for any additional bugs.
+
+    - Redesign:
+        - Follow the redesign email advice.
+        - Mention the fact that some people may have already voted and how we handle that for new items added.

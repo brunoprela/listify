@@ -1,0 +1,5 @@
+1. Drag and Drop implemented in basic form
+2. Mongo Schemas created, instance methods finished for Users model, wip for others
+3. Connecting frontend to models wip
+4. Custom Items wip. Text-only works, others in progress
+5. Consensus algorithm wip. We've put some thought into the algorithm on paper, but it hasn't been coded up or included anywhere yet.

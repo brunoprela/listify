@@ -1,0 +1,43 @@
+November 21, 2016, Team Phil, Meeting 1 with Harihar
+
+Notes:
+
+    - Starting off with introductions.
+
+    - Explaining some discrepancies/confusion around app:
+        - Incentives (FINAL):
+            - No need for incentives for private rankings.
+            - However, for public rankings, an upvote/downvote ("not necessary") or a description.
+                - People can be doing this just for fun.
+                - People can be collecting data through rankings.
+                - Add titles and descriptions for consensuses so that users can see what each ranking is about.
+        - Comments (FINAL):
+            - Should include comments for each ranking so that people can explain why they ranked the way they did.
+            - Make it configurable if you want to show rankings' comments.
+        - Closing rankings (MVP):
+            - Timer or manual shutdown.
+            - Lean toward not showing consensus to each user until after each user has submitted.
+            - Show consensus to all users once the creator has closed the ranking.
+        - Search Feature (FINAL):
+
+    - For Drag and Drop (MVP):
+        - For now, just update when the item is dropped. No need to update the number while the item is being ranked.
+
+    - Item (MVP):
+        - Make a table for items.
+        - Consensus and Rankings should BOTH have pointers to items.
+
+    - Add option so that the creator can approve suggestions to the main ranking. (FINAL)
+        - Option to block adding suggestions.
+
+Moving Forward:
+
+    - MVP (due this Wednesday)
+        - MVP should be a working app:
+            - User can log in, create a ranking, share it (publicly or privately) and others can vote on ite.
+            - The user can then close a ranking and see the consensus.
+        - IN ADDITION:
+             - Add special instructions inf necessary for Harihar.
+             - Write down features we support.
+
+    - Revised Design Doc (due next Monday)

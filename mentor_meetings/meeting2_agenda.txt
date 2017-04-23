@@ -1,0 +1,14 @@
+1) review work since last meeting
+2) talk about missed features for the MVP
+	a. closing a consensus
+	b. shareable links for allow others to make submissions to rankings
+	c. viewing consensus
+	d. dashboard for viewing rankings
+	e. public vs. private rankings
+3) questions
+	a. will we receive feedback on design before redesign is due?nn
+	b. can we schedule lab hours with Harihar?
+	c. technical questions:
+		- why can't we handle GET requests?
+		- others
+	d. demo?

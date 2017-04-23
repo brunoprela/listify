@@ -1,0 +1,18 @@
+December 5, 2016, Team Phil, Meeting 3 with Harihar
+
+Notes:
+
+    - Recapping progress since last meeting. Doing a small pre-demo with Harihar to see how the project has progressed.
+        - UI is very cool (good job Phil)
+
+    - Going over what we have left to do:
+        - Heroku has protection through CSRF token (?). HTTPS does not protect you from CSRF.
+        - SeaSurf ExpressJS middleware
+
+    - Deployment (?)
+        - Said he would get back to us after his staff meeting later in the day.
+
+    - Phil's Mongoose question:
+        - Trying to get all documents wherein their list of ids has this id
+            - $in hasn't worked
+        - $in, elemMatch and find are all things that tend to work, but which havent worked for us

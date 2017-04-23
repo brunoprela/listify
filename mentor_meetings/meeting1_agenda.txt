@@ -1,0 +1,12 @@
+1) High-level concept
+    To start off, we will answer any high level questions about our idea, and go over our concept idea (more in depth than the presentation) to further clarify the basics.
+2) Go over which packages and modules we are using
+    We will show our basic file layout, and which packages and modules we are using. Also ask for any recommended packages.
+3) Respond to questions the TA's compiled after our presentation.
+    We will answer each question that the TA's asked during our presentation.
+4) MVP
+    We will discuss the limitations and functionality of our MVP, and take any advice. Also, we will give a progress update.
+5) Division of Labor
+    Discuss who will be implementing which module.
+6) Wrap Up
+    We will wrap up by discussing the next steps for our project, as well as what we should accomplish before our next checkin.

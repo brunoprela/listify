@@ -1,0 +1,6 @@
+1) users can create rankings
+2) users can submit to their own rankings (in fact, they have to)
+3) users can register accounts
+4) users can log in to Listify
+5) basic consensus algorithm built
+6)

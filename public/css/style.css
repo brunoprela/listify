@@ -1,0 +1,822 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+html, body, #app, .content {
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border-style:none;
+  -webkit-border-radius: 5px;
+  padding: 3px 10px;
+  color:white;
+}
+
+button:focus {
+  outline: none;
+}
+
+/** Navbar **/
+.Navbar {
+  margin-top:-20px;
+  height:50px;
+  background-color:#FAF9F9;
+
+  /*shadow */
+  -webkit-box-shadow:0px 1px 1px rgb(130,130,130);
+  -moz-box-shadow:0px 1px 1px rgb(130,130,130);
+  box-shadow:0px 1px 1px rgb(130,130,130);
+
+}
+
+.SearchableNavbar {
+  height:50px;
+  background-color:#FAF9F9;
+  width:100%;
+  /*margin-bottom:40px;*/
+
+  /*shadow */
+  -webkit-box-shadow:0px 1px 1px rgb(130,130,130);
+  -moz-box-shadow:0px 1px 1px rgb(130,130,130);
+  box-shadow:0px 1px 1px rgb(130,130,130);
+
+
+}
+
+.SearchableNavbar h1 {
+  font-size:36px;
+  font-weight: 900;
+  color: #E52F4F;
+  margin-left: 20px;
+  display:inline-block;
+  float:left;
+  margin-top:0;
+
+}
+
+.SearchableNavbar .SearchTextInput input[type=text] {
+  height: 25px;
+  font-weight: 400;
+  font-size:12px;
+  width:70%;
+  padding-left:5px;
+  margin-left: 40px;
+  margin-top:10px;
+  float:left;
+}
+
+.LogoutButton {
+  float: right;
+}
+
+.ProfileButton {
+  float:right;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #4A4A4A;
+}
+
+
+#listify-title {
+  font-size:36px;
+  font-weight: 900;
+  color: #E52F4F;
+  margin-left: 20px;
+}
+
+/**BottomRightButton **/
+
+.BottomRightButton {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  border-radius: 50%;
+  width:70px;
+  height:70px;
+  background: #66B110;
+  color:white;
+  border: none;
+}
+
+.BottomRightButton:active {
+    background: #538F0E;
+}
+
+/** LoginPage**/
+.LoginPage {
+  background:#1C2C38;
+  /*background:white;*/
+  height:100%;
+}
+
+.WelcomeSection {
+  text-align:center;
+  background: #C74D4D;
+  float:left;
+  height:100%;
+  padding-left:20px;
+  padding-right:60px;
+}
+
+.WelcomeLogo {
+  width: 100px;
+  height:100px;
+  margin-top: 40px;
+}
+
+.WelcomeSection h2 {
+  color:white;
+}
+.WelcomeSection p  {
+  text-align:left;
+  color:white;
+}
+
+.UserAuthContainer {
+  background-color: white;
+  width:60%;
+  max-width:700px;
+  padding-right:150px;
+  display:inline-block;
+  margin-left:20%;
+  margin-top: 100px;
+  height:350px;
+  /*border: 2px solid #4A4A4A;*/
+  border-radius: 10px;
+}
+
+.LoginHeader {
+  float:left;
+  margin-left:20px;
+  margin-bottom:40px;
+}
+
+.SignInForm .username, .SignInForm .password, .RegisterForm .username, .RegisterForm .password {
+  width: 300px;
+  height:20px;
+  margin-left:20px;
+}
+
+.login-button, .signup-button {
+  float:left;
+  margin-left:20px;
+  width:100px;
+  height:30px;
+  background-color: #C74D4D;
+}
+
+.SignInForm input, .RegisterForm input{
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #C4BFBF;
+  padding-bottom: 5px;
+  margin-bottom:15px;
+  background: transparent;
+  width: 300px;
+  height: 10px;
+  color: #4A4A4A;
+  font-weight: 300;
+  font-size:20px;
+
+}
+
+.SignInForm textarea:focus, .SignInForm input:focus, .RegisterForm textarea:focus, .RegisterForm input:focus{
+    border: none;
+    border-bottom: 2px solid #C74D4D;
+}
+
+.errorMessage {
+  bottom: 25px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+/**RankingTitleForm **/
+
+.RankingTitleForm {
+  margin-left: 50px;
+  display: block;
+  margin-top:20px;
+  float:left;
+}
+
+.RankingTitleForm input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    width: 400px;
+    height: 50px;
+    color: #4A4A4A;
+    font-weight: 600;
+    font-size:30px;
+}
+
+textarea:focus, input:focus{
+    border: none;
+}
+
+::-webkit-input-placeholder {
+   color: #C4BFBF;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #C4BFBF;
+}
+
+:-ms-input-placeholder {
+   color: #C4BFBF;
+}
+
+.PublicPrivateIndicator {
+  display:inline-block;
+  margin-top:40px;
+}
+
+.PublicPrivateIndicator button {
+  display:inline-block;
+  float:left;
+}
+.PublicPrivateIndicator h3 {
+  margin-top:0;
+  display:inline-block;
+  float:left;
+  color:#C4BFBF;
+}
+
+/**AddItemForm**/
+
+.AddItemForm{
+  margin-left: 50px;
+  display: block;
+  margin-top: 20px;
+  width: 750px;
+}
+
+.AddItemForm input[type=text] {
+  width: 500px;
+  height: 40px;
+  font-weight: 400;
+  font-size:15px;
+  -webkit-border-radius: 5px;
+  padding-left:10px;
+}
+
+.AddItemForm input[type=submit] {
+    margin-left: 20px;
+    height: 40px;
+    width: 100px;
+    background:#E52F4F;
+    border:0 none;
+    cursor:pointer;
+    color:white;
+    font-size:15px;
+
+    -webkit-border-radius: 5px;
+}
+
+/** CreateRankings OptionsList**/
+.CreateListOptionsList {
+    margin-top:25px;
+    width: 500px;
+    border: 0 none;
+    margin-left: 50px;
+    display: block;
+}
+
+/** Popups **/
+.DescriptionTextArea, .CommentTextArea {
+  resize: none;
+  margin-top:15px;
+  height:100px;
+  width: 90%;
+  border-color:#C4BFBF;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.PopupButton {
+  width:80px;
+  height:25px;
+  background:#E52F4F;
+  color:white;
+  -webkit-border-radius: 5px;
+}
+
+/** InviteUsersPanel **/
+.InviteUsersPanel {
+  width:35%;
+  float:right;
+  display:block;
+  height:100vh;
+  background-color: #FAF9F9;
+  padding-left:20px;
+  margin-top:-30px;
+}
+
+#UserSearchTextInput {
+  width: 300px;
+  height: 25px;
+  font-weight: 400;
+  font-size:15px;
+  -webkit-border-radius: 5px;
+  padding-left:10px;
+}
+
+.UserCard {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #C4BFBF;
+  margin-top: 10px;
+  -webkit-border-radius: 5px;
+  background:white;
+  display: inline-block;
+  padding-left: 10px;
+  width:90%;
+}
+
+.UserCard p {
+  font-size: 20px;
+  font-weight:400;
+}
+
+.EditRankingRankingList .UserCard {
+  margin-left:10px;
+  width:90%;
+}
+
+.EditRankingsPage {
+  padding-left:80px;
+}
+
+/**StandbyItemCard **/
+.StandbyItemCard {
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #C4BFBF;
+  width: 500px;
+  margin-top: 25px;
+  -webkit-border-radius: 5px;
+  background:#F2EEEE;
+  display: inline-block;
+  padding: 10px 0px;
+  padding-left:10px;
+}
+
+/**CommentCard **/
+
+.Separator {
+  width: 300px;
+  height:1px;
+  background:#C4BFBF;
+}
+
+.ShowCommentsButton {
+  margin-bottom:40px;
+  margin-left:0px;
+}
+
+.EditRankingCommentButton {
+  margin-left:20px;
+}
+
+.CommentsContainer {
+  height:200px;
+  float:right;
+  margin-right:40px;
+  margin-top:40px;
+  margin-bottom:-20px;
+  padding-right:0px;
+  padding-left:0px;
+  padding-top:5px;
+  padding-bottom:5px;
+  width:300px;
+  padding-right:20px;
+  padding-left:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+.CommentCard {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #C4BFBF;
+  width: 300px;
+  margin-top: 10px;
+  -webkit-border-radius: 5px;
+  background:white;
+  display: inline-block;
+  padding: 5px 0px;
+  padding-left:10px;
+}
+
+.CommentCardTitle {
+  font-size: 15px;
+  font-weight:300;
+  display:block;
+  float:left;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+.CommentCardDescription {
+  font-size: 10px;
+  font-weight:300;
+  margin-top:30px;
+}
+
+/** ItemCard **/
+
+.ItemCard {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #C4BFBF;
+  width: 500px;
+  margin-top: 25px;
+  -webkit-border-radius: 5px;
+  background:white;
+  display: inline-block;
+  padding: 20px 0px;
+  padding-left:10px;
+}
+
+.ItemCard .ItemCardRanking {
+  padding-left:10px;
+  color:#9B9B9B;
+  font-size:25px;
+  float:left;
+  margin-top:-5px;
+  margin-right:10px;
+}
+
+.ItemCardTitle {
+  font-size: 20px;
+  font-weight:400;
+  display:block;
+  float:left;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+.ItemCardDescription {
+  font-size: 17px;
+  font-weight:300;
+  margin-top:30px;
+}
+
+.ItemCardImage {
+  float:right;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.ItemCardEditButton {
+  margin-top:-20px;
+  background:none;
+  float:right;
+}
+
+.UserDeleteButton {
+  float:right;
+  padding:5px;
+}
+
+/** EditableItemCard **/
+
+.EditableItemCard{
+  margin-top:0px;
+  width:600px;
+}
+
+.EditableItemCard .TitleInput {
+  width:70%;
+  height:30px;
+  font-size: 20px;
+  font-weight:400;
+  border:none;
+  border-bottom: 1px solid #C4BFBF;
+}
+
+.ItemContainer {
+  padding-left:10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #C4BFBF;
+  width: 500px;
+  -webkit-border-radius: 5px;
+  background:white;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom:20px;
+  float:left;
+}
+
+.ItemContainer textarea {
+  width:80%;
+  display:block;
+  float:left;
+  height:100px;
+  resize: none;
+  font-size: 17px;
+  margin-top:5px;
+  weight:300;
+  border-color: #C4BFBF;
+}
+
+.PhotoInput {
+  display:block;
+}
+.EditableItemCard .ButtonContainer {
+  width:40px;
+  float:left;
+}
+
+.ExitButtonContainer {
+  display:inline-block;
+  margin-top:0px;
+}
+
+/**Static List Card **/
+.StaticListCard {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #C4BFBF;
+  width: 500px;
+  margin-top: 25px;
+  -webkit-border-radius: 5px;
+  background:white;
+  display: inline-block;
+  padding: 10px 0px;
+  padding-left:10px;
+}
+
+.VoteButtons {
+  float:right;
+  margin-right:10px;
+}
+
+.VoteButtons .VoteCount {
+  display: block;
+  margin-top:-5px;
+  margin-bottom:-5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.LockedListMarker{
+  display:inline-block;
+  margin-left: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #E52F4F;
+}
+
+.ContributedMarker {
+  display:inline-block;
+  margin-left: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #66B110;
+}
+
+.StaticListCard .StaticListCardRanking {
+  color:#9B9B9B;
+  font-size:25px;
+}
+
+.StaticListCard p{
+  display:inline;
+}
+
+
+.StaticListCardTitle {
+  font-size: 25px;
+  font-weight:400;
+}
+
+.StaticListCardUpvotes {
+  font-size:20px;
+  margin-left:20px;
+}
+
+.StaticListCardCreator {
+  margin-top:20px;
+  display:block;
+  font-weight: 300;
+}
+
+/**EditRanking **/
+
+.RankingTitleContainer {
+  display:inline-block;
+}
+
+.InviteNumber {
+  display:inline-block;
+  color:#E52F4F;
+  margin-left:5px;
+  weight:300;
+}
+
+.RankingTitleSecondRowContainer {
+  margin-top:100px;
+  display:inline-block;
+}
+
+.RankingTitle {
+  margin-bottom:0px;
+  padding-bottom:0px;
+  margin-left:10px;
+  display:inline-block;
+}
+
+.RankingLimit {
+  display:inline-block;
+  margin-left: 5px;
+  color:#9B9B9B;
+  font-weight:300;
+  padding-bottom: 0px;
+}
+
+.RankingAuthor {
+  font-size:20px;
+  font-weight:300;
+  color:#C4BFBF;
+  margin-left:10px;
+  margin-top:-20px;
+  display:inline-block;
+}
+
+.TitleSecondRow {
+  margin-top:-20px;
+  display:block;
+}
+
+#RankingPageSecondRow{
+  margin-top:0px;
+}
+
+.CloseVotingButton {
+  margin-left:20px;
+  display:inline-block;
+}
+
+
+.EditRankingRankingList {
+  width:50%;
+  float:left;
+  margin-left:30px;
+  height:100vh;
+}
+
+.SwitchableHeader {
+  display:inline-block;
+  margin-top:40px;
+}
+
+.SwitchableHeader a{
+  font-size:30px;
+  font-weight:600;
+}
+
+.InviteNumber {
+  color:
+}
+
+.EditRankingRankingList .ItemCard {
+  margin-left:10px;
+  width:90%;
+}
+
+.EditRankingOptionsList {
+  background:#FAF9F9;
+  width:35%;
+  float:right;
+  height:100vh;
+  margin-top:5px;
+}
+
+.EditRankingOptionsList h1 {
+  margin-left:10px;
+  margin-bottom:40px;
+}
+
+.EditRankingOptionsList .ItemCard {
+  margin-left:10px;
+  width:90%;
+}
+
+/**View Rankings Page **/
+.RankingNavigationOptions {
+  float:right;
+  margin-right:40px;
+  margin-top:40px;
+  padding-right:20px;
+  padding-left:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+  width:300px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: #C4BFBF;
+  -webkit-border-radius: 5px;
+}
+
+.ConsensusRankingDescription {
+  float:right;
+  margin-right:40px;
+  margin-top:40px;
+  margin-bottom:-20px;
+  padding-right:20px;
+  padding-left:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+  width:300px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: #C4BFBF;
+  -webkit-border-radius: 5px;
+
+}
+
+/**Profile Description **/
+
+.ProfileDescription {
+  float:right;
+  margin-right:40px;
+  margin-top:40px;
+  margin-bottom:-20px;
+  width:300px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: #C4BFBF;
+  -webkit-border-radius: 5px;
+
+}
+
+.StatsContainer {
+  display:inline-block;
+  margin-top:0px;
+}
+
+.StatsContainer div {
+  display:inline-block;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.Username {
+  margin-left:10px;
+  font-size:20px;
+  font-weight:600;
+  margin-bottom:0px;
+}
+
+.DescriptionKey {
+  float:right;
+  margin-right:40px;
+  margin-top:40px;
+  margin-bottom:-20px;
+  padding-right:20px;
+  padding-left:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+  width:270px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: #C4BFBF;
+  -webkit-border-radius: 5px;
+}
+.Description {
+  margin-bottom:0px;
+}
+
+.Description p{
+  display:inline-block;
+  margin-left:10px;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+.Logout {
+  float:right;
+  margin-right:40px;
+  margin-top:262px;
+  margin-bottom:-20px;
+  padding-top:5px;
+  padding-bottom:5px;
+  width:300px;
+  position: absolute;
+  right: 0px;
+}
