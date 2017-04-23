@@ -5,7 +5,7 @@ https://listify-team-phil.herokuapp.com/
 Project by Spencer Kim, Max Lancaster, Bruno Prela and Phillip Ou
 
 ## Deploy
-git clone https://github.mit.edu/6170-fa16/final-proj-philmeup.git
+git clone git@github.com:brunoprela/listify.git
 
 npm install
 
@@ -29,7 +29,8 @@ When a user first logs in, he/she is directed to a page to create a ranking inst
 There are currently no capabilities for locking a consensus and ending polling. Thus, there isn't yet functionality for viewing the consensus of a ranking.
 
 ## Routes
-http://localhost:3000/login for the login page. Note that we haven't yet implemented middleware to detect whether the user is authenticated. 
+
+Once running locally, http://localhost:3000/login for the login page. Note that we haven't yet implemented middleware to detect whether the user is authenticated. 
 
 http://localhost:3000/rankings for creating an empty ranking
 
